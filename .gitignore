@@ -1,0 +1,98 @@
+# Ignorar arquivos de compilação e arquivos gerados
+bin/
+obj/
+Bin/
+Obj/
+
+# Ignorar arquivos de publicação
+**/bin/
+**/obj/
+
+# Ignorar arquivos de configuração
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Ignorar diretórios de saída de publicação
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Ignorar arquivos de log
+*.log
+*.log.xml
+*.log.html
+*.log.txt
+
+# Ignorar cache e arquivos temporários
+[Tt]emp/
+[Vv][Ss][Dd][Tt]/
+[Ii][Ii][Ss] Express/
+[Vv]iewState/
+[Vv]ersion/
+[Tt]humbs.db
+[Tt]est[Rr]esult*/
+
+# Ignorar arquivos de configuração do Visual Studio
+[Bb]in/
+[Pp]ublish/
+[My] Publish/
+[Vv]isual[Ss]tudio/
+[Dd]ebugPS/
+[Rr]eleasePS/
+[Ii][Nn][Tt][Ee][Rr][Oo][Pp]/
+[Ee][Xx][Pp][Rr][Ee][Ss][Ss]/
+
+# Ignorar arquivos de log do Visual Studio
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignorar arquivos gerados pelo Visual Studio
+_UpgradeReport_Files/
+UpgradeLog*.XML
+
+# Ignorar arquivos de projeto temporários
+[Ee]xpress/
+
+# Ignorar arquivos de cache de publicação
+*.azurePubxml
+
+# Ignorar arquivos de configuração do IIS
+[Vv]iew[Ss]tate/[Vv]iew[Ss]tate[Ss].sss
+[Vv]iew[Ss]tate/[Vv]iew[Ss]tate[Ss].ssm
+
+# Ignorar arquivos de configuração do Rider
+.idea/
+*.sln.iml
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries/
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
+
+# Ignorar arquivos temporários do Rider
+.idea/caches/
+
+# Ignorar arquivos de histórico local do Visual Studio Code
+.history/
+
+# Outros arquivos
+.vs/
+
